@@ -5,7 +5,7 @@
       <value valueClass="string">Desktop:Full Screen</value>
     </planSetting>
     <planSetting name="webBrowser">
-      <value valueClass="string">Chrome_Headless</value>
+      <value valueClass="string">Chrome</value>
     </planSetting>
   </planSettings>
   <planFeatures>
