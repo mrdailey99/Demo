@@ -4,6 +4,12 @@
     <planSetting name="testEnvironment">
       <value valueClass="string">Lightning</value>
     </planSetting>
+    <planSetting name="browserProvider">
+      <value valueClass="string">Desktop:Full Screen</value>
+    </planSetting>
+    <planSetting name="webBrowser">
+      <value valueClass="string">Chrome_Headless</value>
+    </planSetting>
   </planSettings>
   <planFeatures/>
 </planFolder>
