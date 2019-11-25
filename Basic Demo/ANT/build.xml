@@ -2,8 +2,8 @@
 	<property name="version" value="2.0.1.02"/>
 	<property environment="env"/>
 	<property name="provar.home" value="${env.PROVAR_HOME}"/>
-	<property name="testproject.home" value="${env.WORKSPACE}"/>
-	<property name="testproject.results" value="${env.WORKSPACE}/ANT/Results"/>
+	<property name="testproject.home" value="${env.WORKSPACE}/Basic Demo"/>
+	<property name="testproject.results" value="${env.WORKSPACE}/Basic Demo/ANT/Results"/>
 	<property name="secrets.password" value="${env.ProvarSecretsPassword}"/>
 
 	<taskdef name="Provar-Compile" classname="com.provar.testrunner.ant.CompileTask" classpath="${provar.home}/ant/ant-provar.jar"/>
