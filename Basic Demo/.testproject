@@ -52,42 +52,6 @@
             <connectionUrl envName="Classic" secureStorageNodeId="8703cbfa-21d0-4b2d-bbc0-a886526ac7d7" url="sf:user=jon@provar.demo;password={password};environment=PROD_DEV"/>
           </connectionUrls>
         </connection>
-        <connection name="EmploySureTrainingOrg">
-          <summary>\t</summary>
-          <connectionUrls>
-            <connectionUrl secureStorageNodeId="31eedeeb-9088-49a0-8083-581b22f912bf" url="sf:user=provartrial31@gmail.com;password={password};environment=PROD_DEV;lightningMode=true"/>
-          </connectionUrls>
-        </connection>
-      </connections>
-    </connectionClass>
-    <connectionClass name="google">
-      <connections>
-        <connection name="Gmail">
-          <summary/>
-          <connectionUrls>
-            <connectionUrl secureStorageNodeId="d815b392-2f4c-4793-a378-b43a74a1263b" url="google:user=clint.daniel@provartesting.com;password={password};authenticationType=PASSWORD"/>
-          </connectionUrls>
-        </connection>
-      </connections>
-    </connectionClass>
-    <connectionClass name="msexc">
-      <connections>
-        <connection name="JonsO365">
-          <summary/>
-          <connectionUrls>
-            <connectionUrl secureStorageNodeId="64e2376f-c795-44d8-8767-0e769f6718ca" url="exchange:user=jon@irrational.consulting;password={password}"/>
-          </connectionUrls>
-        </connection>
-      </connections>
-    </connectionClass>
-    <connectionClass name="database">
-      <connections>
-        <connection name="MySQL">
-          <summary/>
-          <connectionUrls>
-            <connectionUrl secureStorageNodeId="051a2e95-56e4-4757-abc1-720180a691b1" url="jdbc:mysql://localhost:32771/mysql?schemaName=information_schema&amp;user=root&amp;password={password}"/>
-          </connectionUrls>
-        </connection>
       </connections>
     </connectionClass>
     <connectionClass name="webservice">
